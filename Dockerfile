@@ -16,7 +16,7 @@ COPY . .
 # Variables de entorno para la configuración de Flask
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
-ENV FLASK_RUN_PORT=5001
+ENV FLASK_RUN_PORT=8001
 
 # Comando para iniciar la aplicación
 CMD ["flask", "run"]
