@@ -4,7 +4,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/download_archive')
 def descargar_excel():
     # SSH
     hostname = 'ssh-natureza.alwaysdata.net'
